@@ -8,7 +8,7 @@ function param(a, b, c) {
 }
 console.log(param(names, year, cur));
 
-let one = +prompt('Введите количсество примеров');
+let one = +prompt('Введите количество примеров');
 let minNumber = +prompt('Введите наименьшее число');
 let maxNumber = +prompt('Введите наибольшее число');
 
