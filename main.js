@@ -1,3 +1,4 @@
+//1 задание//
 let names = prompt('Введите свое имя')
 let year = +prompt('Введите свой год рождения')
 let cur = +prompt('Введите нынешний год')
@@ -20,7 +21,7 @@ function randSym() {
     return Math.floor(Math.random() * (6 - 1) + 1)
 }
 
-
+//2 задание//
 for (let i = 1; i < one; i++) {
     let odin = rand(minNumber, maxNumber),
         two = rand(minNumber, maxNumber),
