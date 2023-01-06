@@ -1,16 +1,16 @@
-// let names = prompt('Введите свое имя')
-// let year = +prompt('Введите свой год рождения')
-// let cur = +prompt('Введите нынешний год')
+let names = prompt('Введите свое имя')
+let year = +prompt('Введите свой год рождения')
+let cur = +prompt('Введите нынешний год')
 
-// function param(a, b, c) {
-//     let sum = a + ' ' + (c - b) + ' лет';
-//     return sum
-// }
-// console.log(param(names, year, cur));
+function param(a, b, c) {
+    let sum = a + ' ' + (c - b) + ' лет';
+    return sum
+}
+console.log(param(names, year, cur));
 
-// let one = +prompt('Введите количсество примеров');
-// let minNumber = +prompt('Введите наименьшее число');
-// let maxNumber = +prompt('Введите наибольшее число');
+let one = +prompt('Введите количсество примеров');
+let minNumber = +prompt('Введите наименьшее число');
+let maxNumber = +prompt('Введите наибольшее число');
 
 function rand(min, max) {
     return Math.floor(Math.random() * (max - min) + min)
